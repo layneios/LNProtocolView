@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LNProtocolView_Example' do
+  pod 'LNProtocolView', :path => '../'
+
+  target 'LNProtocolView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
