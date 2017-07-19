@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		127A63D9F1B4B5975F55F43A /* Pods_LNProtocolView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3618464967B1529556A8AC /* Pods_LNProtocolView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6029AB6E49AEC26C485C65D2 /* Pods_LNProtocolView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76253D40E0EEB4F68CE15D2 /* Pods_LNProtocolView_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E8918CC38A68DB46DBF2240A /* libPods-LNProtocolView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2465A0D1218D9E87F79DC0E8 /* libPods-LNProtocolView_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E3708CB2A23A07594EE3C1F /* Pods-LNProtocolView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNProtocolView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNProtocolView_Tests/Pods-LNProtocolView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2465A0D1218D9E87F79DC0E8 /* libPods-LNProtocolView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNProtocolView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LNProtocolView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNProtocolView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,15 +56,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A5EE1D5AAEB74A9F54E31B8 /* LNProtocolView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LNProtocolView.podspec; path = ../LNProtocolView.podspec; sourceTree = "<group>"; };
+		6A5EE1D5AAEB74A9F54E31B8 /* LNProtocolView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LNProtocolView.podspec; path = ../LNProtocolView.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804B1E4D4331AEF57EAF26C2 /* Pods-LNProtocolView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNProtocolView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNProtocolView_Example/Pods-LNProtocolView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CE2B3ED70FFB8F67B2C9F04 /* Pods-LNProtocolView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNProtocolView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNProtocolView_Tests/Pods-LNProtocolView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A6178BDFF0A82404E999A4CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BA3618464967B1529556A8AC /* Pods_LNProtocolView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNProtocolView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C76253D40E0EEB4F68CE15D2 /* Pods_LNProtocolView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNProtocolView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D88A01F0D51448CEAE88EEB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A6178BDFF0A82404E999A4CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D37804FCCC071961DA11382A /* libPods-LNProtocolView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNProtocolView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88A01F0D51448CEAE88EEB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E65F09A5B71424130635C257 /* Pods-LNProtocolView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNProtocolView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNProtocolView_Example/Pods-LNProtocolView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6029AB6E49AEC26C485C65D2 /* Pods_LNProtocolView_Example.framework in Frameworks */,
+				E8918CC38A68DB46DBF2240A /* libPods-LNProtocolView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				127A63D9F1B4B5975F55F43A /* Pods_LNProtocolView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +119,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C76253D40E0EEB4F68CE15D2 /* Pods_LNProtocolView_Example.framework */,
-				BA3618464967B1529556A8AC /* Pods_LNProtocolView_Tests.framework */,
+				2465A0D1218D9E87F79DC0E8 /* libPods-LNProtocolView_Example.a */,
+				D37804FCCC071961DA11382A /* libPods-LNProtocolView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +186,6 @@
 			children = (
 				804B1E4D4331AEF57EAF26C2 /* Pods-LNProtocolView_Example.debug.xcconfig */,
 				E65F09A5B71424130635C257 /* Pods-LNProtocolView_Example.release.xcconfig */,
-				8CE2B3ED70FFB8F67B2C9F04 /* Pods-LNProtocolView_Tests.debug.xcconfig */,
-				4E3708CB2A23A07594EE3C1F /* Pods-LNProtocolView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +217,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LNProtocolView_Tests" */;
 			buildPhases = (
-				3E072FF4741B89FBD4765717 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				CFF555D9ED073FAA749D4AE2 /* [CP] Embed Pods Frameworks */,
-				8E7B6F7607FCDBBA1F8162AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,36 +318,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNProtocolView_Example/Pods-LNProtocolView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E072FF4741B89FBD4765717 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8E7B6F7607FCDBBA1F8162AC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNProtocolView_Tests/Pods-LNProtocolView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CFEF159E5F88678036B2A8F7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,21 +331,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNProtocolView_Example/Pods-LNProtocolView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CFF555D9ED073FAA749D4AE2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNProtocolView_Tests/Pods-LNProtocolView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -551,7 +497,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE2B3ED70FFB8F67B2C9F04 /* Pods-LNProtocolView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -575,7 +520,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E3708CB2A23A07594EE3C1F /* Pods-LNProtocolView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,0 +1,16 @@
+PODS:
+  - LNProtocolView (0.1.0)
+
+DEPENDENCIES:
+  - LNProtocolView (from `../`)
+
+EXTERNAL SOURCES:
+  LNProtocolView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LNProtocolView: 23a595ca3ea809f9ce2ee84800abdf7d2a402df2
+
+PODFILE CHECKSUM: aa4bb372f42286bfcba0886f273280deefd636bf
+
+COCOAPODS: 1.2.1
