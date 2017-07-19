@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LNProtocolView: 23a595ca3ea809f9ce2ee84800abdf7d2a402df2
+  LNProtocolView: cab21c1019cc292e9b068d0da78f62ffdf83de35
 
 PODFILE CHECKSUM: aa4bb372f42286bfcba0886f273280deefd636bf
 

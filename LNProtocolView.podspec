@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lengmolehongyan/LNProtocolView.git', :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
   s.source_files = 'LNProtocolView/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'LNProtocolView/Classes/**/*.h'
 
 end

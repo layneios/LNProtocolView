@@ -8,6 +8,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![Demo](http://ac-HSNl7zbI.clouddn.com/QAk1VHlWtxtb6zQR976G1B2Y2ggIDT9OniydzXk3.jpg)
+
 ## Requirements
 
 ## Installation

@@ -20,5 +20,5 @@
     "ios": "7.0"
   },
   "source_files": "LNProtocolView/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "public_header_files": "LNProtocolView/Classes/**/*.h"
 }
