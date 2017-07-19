@@ -8,7 +8,24 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![Demo](http://ac-HSNl7zbI.clouddn.com/QAk1VHlWtxtb6zQR976G1B2Y2ggIDT9OniydzXk3.jpg)
+```objc
+LNProtocolView *protocolView = [[LNProtocolView alloc] initWithFrame:CGRectZero];
+protocolView.backgroundColor = [UIColor groupTableViewBackgroundColor];
+[protocolView setPrefixStr:@"这里是前缀"
+                 suffixStr:@"这里是后缀哈哈哈"
+             protocolArray:@[@{ProtocolViewNameKey:@"《这里是协议》",
+                               ProtocolViewLinkKey:@"https://www.baidu.com"}]
+                 textColor:[UIColor darkTextColor]
+         protocolTextColor:[UIColor blueColor]
+                  textFont:[UIFont systemFontOfSize:15]];
+[self.view addSubview:protocolView];
+protocolView.frame = CGRectMake(10, 100, 260, 10);
+protocolView.jumpBlock = ^(NSString *urlStr) {
+    NSLog(@"%@", urlStr);
+};
+```
+
+![Demo](https://github.com/lengmolehongyan/LNProtocolView/blob/master/SimulatorScreenShot1.png)
 
 ## Requirements
 
