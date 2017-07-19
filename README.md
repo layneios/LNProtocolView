@@ -1,6 +1,5 @@
 # LNProtocolView
 
-[![CI Status](http://img.shields.io/travis/lengmolehongyan/LNProtocolView.svg?style=flat)](https://travis-ci.org/lengmolehongyan/LNProtocolView)
 [![Version](https://img.shields.io/cocoapods/v/LNProtocolView.svg?style=flat)](http://cocoapods.org/pods/LNProtocolView)
 [![License](https://img.shields.io/cocoapods/l/LNProtocolView.svg?style=flat)](http://cocoapods.org/pods/LNProtocolView)
 [![Platform](https://img.shields.io/cocoapods/p/LNProtocolView.svg?style=flat)](http://cocoapods.org/pods/LNProtocolView)
@@ -27,3 +26,4 @@ lengmolehongyan, lengmohongyan@hotmail.com
 ## License
 
 LNProtocolView is available under the MIT license. See the LICENSE file for more info.
+
